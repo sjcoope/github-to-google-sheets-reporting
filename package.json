@@ -1,0 +1,19 @@
+{
+  "name": "github-to-google-sheets-reporting",
+  "version": "1.0.0",
+  "description": "A quick attempt at creating a Googlesheets Add-On to pull data out of a Github organisation to allow for reporting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjcoope/github-to-google-sheets-reporting.git"
+  },
+  "author": "Simon Coope",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjcoope/github-to-google-sheets-reporting/issues"
+  },
+  "homepage": "https://github.com/sjcoope/github-to-google-sheets-reporting#readme"
+}
