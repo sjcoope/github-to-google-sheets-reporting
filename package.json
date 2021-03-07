@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/sjcoope/github-to-google-sheets-reporting/issues"
   },
-  "homepage": "https://github.com/sjcoope/github-to-google-sheets-reporting#readme"
+  "homepage": "https://github.com/sjcoope/github-to-google-sheets-reporting#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.27"
+  }
 }
