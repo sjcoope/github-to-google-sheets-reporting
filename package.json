@@ -4,7 +4,7 @@
   "description": "A quick attempt at creating a Googlesheets Add-On to pull data out of a Github organisation to allow for reporting.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "cross-env TS_NODE_FILES=true mocha --exit --require ts-node/register --colors 'test/**/*.test.ts'",
     "deploy": "clasp push"
   },
   "repository": {
@@ -19,6 +19,13 @@
   "homepage": "https://github.com/sjcoope/github-to-google-sheets-reporting#readme",
   "dependencies": {},
   "devDependencies": {
-    "@types/google-apps-script": "^1.0.27"
+    "@types/chai": "^4.2.15",
+    "@types/google-apps-script": "^1.0.27",
+    "@types/mocha": "^8.2.1",
+    "chai": "^4.3.3",
+    "cross-env": "^7.0.3",
+    "mocha": "^8.3.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
   }
 }
