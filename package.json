@@ -4,7 +4,8 @@
   "description": "A quick attempt at creating a Googlesheets Add-On to pull data out of a Github organisation to allow for reporting.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "clasp push"
   },
   "repository": {
     "type": "git",
