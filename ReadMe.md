@@ -1,6 +1,6 @@
-# Github to Google Sheets - Reporting
+# Google Clasp Project Template
 
-A quick attempt at creating a Googlesheets Add-On to pull data out of a Github organisation to allow for reporting.
+This is a basic project templmate for a Google Clasp project. It's not fully finished as yet and was put together for a piece of work that never got off of the ground.
 
 ## Getting Started
 
